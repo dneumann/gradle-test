@@ -1,1 +1,1 @@
-include 'adwquellen', 'solr-importer'
+include 'adwquellen', 'solr-importer:api', 'solr-importer:web'

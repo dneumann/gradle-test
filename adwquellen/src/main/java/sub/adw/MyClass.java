@@ -1,6 +1,6 @@
 package sub.adw;
 
-import sub.ent.MyInterface;
+import sub.ent.api.MyInterface;
 
 public class MyClass implements MyInterface {
 

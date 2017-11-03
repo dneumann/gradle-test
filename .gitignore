@@ -1,3 +1,4 @@
 solr-importer
 .*
 !.gitignore
+build

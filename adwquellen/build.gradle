@@ -9,5 +9,12 @@ repositories {
 apply plugin: 'java'
 
 dependencies {
-	compile project(':solr-importer')
+	compile project(':solr-importer:api')
+}
+
+build.doFirst {
+	task -> println "Begin $task.project.name"
+}
+build.doLast {
+	task -> println "Finish $task.project.name"
 }
