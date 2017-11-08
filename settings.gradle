@@ -1,1 +1,5 @@
-include 'adwquellen', 'solr-importer:api', 'solr-importer:web'
+include 'adwquellen', 'solr-importer:web', 'solr-importer:core'
+
+project(":adwquellen").buildFileName = "adwquellen.gradle"
+project(":solr-importer:web").buildFileName = "web.gradle"
+project(":solr-importer:core").buildFileName = "core.gradle"

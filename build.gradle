@@ -2,6 +2,12 @@
 group = 'sub.adw'
 version = '0.0.1-SNAPSHOT'
 
-repositories {
-	mavenCentral()
+allprojects {
+	repositories {
+		mavenCentral()
+		maven {
+			url 'https://repo.boundlessgeo.com/main/'
+		}
+	}
+	apply plugin: 'java'
 }
