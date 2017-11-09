@@ -1,7 +1,15 @@
 package sub.adw;
 
-import sub.ent.api.MyInterface;
+import java.util.Map;
 
-public class MyClass implements MyInterface {
+import sub.ent.api.ImporterStep;
+
+public class MyClass extends ImporterStep {
+
+	@Override
+	public void execute(Map<String, String> params) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
