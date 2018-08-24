@@ -11,4 +11,9 @@ public class ImporterStepTest extends ImporterStep {
 		out.println("    in test step");
 	}
 
+	@Override
+	public String getStepDescription() {
+		return "Test-step";
+	}
+
 }
